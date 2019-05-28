@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 750px;
+    padding-left: 75px;
+}
+
+h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#description {
+    margin-top: 5px;
+}
+
+h2 {
+    margin-top: 75px;
+}
+
+address {
+    margin-top: 20px;
+}
+
+#company {
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
